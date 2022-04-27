@@ -33,12 +33,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(488, 125);
+            this.button1.Location = new System.Drawing.Point(657, 400);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 101);
+            this.button1.Size = new System.Drawing.Size(97, 28);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
